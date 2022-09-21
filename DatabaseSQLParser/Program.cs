@@ -52,6 +52,7 @@ namespace DatabaseSQLParser
                 else
                 insertQuery += "), ";
             }
+            //Write to output
             Console.WriteLine(insertQuery);
             File.WriteAllText(@"G:\Downloads\e_inffor_20okt_fl\3_Kozossegi_szolgalat\munkaSQL.txt", insertQuery);
             Console.WriteLine("Write was successful");
